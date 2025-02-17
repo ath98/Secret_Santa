@@ -12,9 +12,6 @@ This README document outlines the structure, functionality, and usage of the pro
 - **Initialization**: An `Employee` object is created with specific attributes.
 - **List Management**: A list of all current employees is maintained to reference when creating assignments.
 
-**Documentation Links:**
-- [View Employees List](#)
-
 ---
 
 ## 2. Secret Santa Assigner Documentation
@@ -23,9 +20,6 @@ This README document outlines the structure, functionality, and usage of the pro
 - **Assignment Process**: This class assigns secret children (another `Employee` object) to each employee through a while-loop.
 - **Algorithm**: The algorithm shuffles employees in two groups, then pairs them up with a random choice from the remaining employees.
 
-**Documentation Links:**
-- [View Secret Santa Assigner Documentation](#)
-
 ---
 
 ## 3. File Operations Documentation
@@ -33,10 +27,6 @@ This README document outlines the structure, functionality, and usage of the pro
 ### Key Information:
 - **Reading Data**: The `read_csv` method reads employee data from a CSV file.
 - **Writing Data**: The `write_to_csv` method writes the secret assignments to another CSV file.
-
-**Documentation Links:**
-- [View Read_csv Method](#)
-- [View Write_to_csv Method](#)
 
 ---
 
@@ -47,17 +37,11 @@ This README document outlines the structure, functionality, and usage of the pro
 - Employees are processed in a specific order, though details depend on implementation.
 - The code is designed to be used with clear documentation and best practices.
 
-**Documentation Links:**
-- [View Usage Notes](#)
-
 ---
 
 ## 5. Potential Issues
 - **Duplicates**: Duplicate employees may still exist after conversion from list of dictionaries back to the original structure.
 - **Edge Cases**: Consider scenarios like empty employee lists or multiple secret assignments per employee, though this should theoretically be prevented.
-
-**Documentation Links:**
-- [View Potential Issues](#)
 
 ---
 
@@ -65,9 +49,6 @@ This README document outlines the structure, functionality, and usage of the pro
 
 ### Current Status:
 The code is implemented and functional, ready for use in Secret Santa projects involving employees.
-
-**Documentation Links:**
-- [View Current Status](#)
 
 ---
 
